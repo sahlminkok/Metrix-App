@@ -1,0 +1,149 @@
+section {
+  display: flex;
+  gap: 1.9rem;
+}
+
+aside {
+  width: 29.6rem;
+  background: #fff;
+  padding-left: 3.2rem;
+  padding-top: 1.4rem;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+  padding-bottom: 6.2rem;
+}
+
+.logoSection img {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
+.logoSection h1 {
+  color: #45464e;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35.2rem;
+}
+
+.menuItem {
+  display: flex;
+  width: 23.3rem;
+  padding: 1.6rem 2rem;
+  align-items: center;
+  gap: 1.6rem;
+  border-radius: 1.2rem;
+  color: #53545c;
+  text-decoration: none;
+}
+
+.menuItem:focus {
+  background-color: #5570f1;
+  color: #fff;
+}
+
+.menuItem p {
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactSupport {
+  display: flex;
+  align-items: center;
+  width: 23.2rem;
+  padding: 11px 16px;
+  gap: 1rem;
+  border-radius: 16px;
+  background: rgba(94, 99, 102, 0.1);
+  cursor: pointer;
+}
+
+.contactSupport img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.contactSupport p {
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactSupport:hover {
+  background: rgba(94, 99, 102, 0.2);
+}
+
+.reward {
+  display: flex;
+  width: 23.2rem;
+  padding: 11px 33px 13px 20px;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1.6rem;
+  border-radius: 1.6rem;
+  background: rgba(255, 204, 145, 0.2);
+  margin-top: 1.4rem;
+}
+
+.gift {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.gift p {
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #1c1d22;
+}
+
+.upgrade {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.upgrade p {
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #6e7079;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  margin-top: 2.3rem;
+  padding: 11px;
+  gap: 1rem;
+  margin-bottom: 3.7rem;
+}
+
+.logout p {
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #cc5f5f;
+}
